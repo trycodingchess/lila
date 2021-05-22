@@ -601,6 +601,9 @@ final class Study(
         Json.obj(
           "move" -> List(
             Glyph.MoveAssessment.good.copy(name = trans.study.goodMove.txt()),
+            Glyph.MoveAssessment.bestMove.copy(name = trans.study.bestMove.txt()),
+            Glyph.MoveAssessment.goodMove.copy(name = trans.study.goodMove.txt()),
+            Glyph.MoveAssessment.brilliantMove.copy(name = trans.study.brilliantMove.txt()),
             Glyph.MoveAssessment.mistake.copy(name = trans.study.mistake.txt()),
             Glyph.MoveAssessment.brillant.copy(name = trans.study.brilliantMove.txt()),
             Glyph.MoveAssessment.blunder.copy(name = trans.study.blunder.txt()),
